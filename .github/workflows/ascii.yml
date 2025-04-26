@@ -10,14 +10,16 @@ jobs:
         - name: checkout
           uses: actions/checkout@v3
 
-        - name: Install cowsay
-          run: sudo apt-get install cowsay -y  
+        # - name: Install cowsay
+        #   run: sudo apt-get install cowsay -y  
 
-        - name: Exec cowsay
-          run: cowsay -f dragon "Run for cover, dragon" >> dragon.txt
+        # - name: Exec cowsay
+        #   run: cowsay -f dragon "Run for cover, dragon" >> dragon.txt
           
-        - name: Check
-          run: grep -i "dragon" dragon.txt
+        # - name: Check
+        #   run: grep -i "dragon" dragon.txt
           
-        - name: read file
-          run: cat dragon.txt  
+        # - name: read file
+        #   run: cat dragon.txt 
+        - name: shell script
+          run: ./sample.sh
