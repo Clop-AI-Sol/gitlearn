@@ -22,4 +22,4 @@ jobs:
         # - name: read file
         #   run: cat dragon.txt 
         - name: shell script
-          run:  sample.sh
+          run: ./sample.sh
