@@ -1,4 +1,4 @@
-name: Ascii gen
+name: Ascii
 
 on:
     push

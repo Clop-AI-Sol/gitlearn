@@ -1,4 +1,4 @@
-name: testjob
+name: sample
 on:
   push:
     branches:
