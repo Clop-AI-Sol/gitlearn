@@ -23,5 +23,5 @@ jobs:
         #   run: cat dragon.txt 
         - name: shell script
           run: |
-           chmod +x
+           chmod +x sample.sh
            ./sample.sh
